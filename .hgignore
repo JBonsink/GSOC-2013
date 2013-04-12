@@ -1,0 +1,11 @@
+# use glob syntax
+syntax: glob
+**.pyc
+**_undo
+**.pcap
+**.dot
+build
+
+syntax: regexp
+^\.UNDO/*.*
+^res/*.*

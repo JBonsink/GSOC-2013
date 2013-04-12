@@ -1,0 +1,25 @@
+>>>>>>>>>>>>>>>> []
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/imalse/bindings/modulegen__gcc_LP64.py:147: Warning: exception TypeLookupError(['std::ostream *'],) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/imalse/bindings/modulegen__gcc_LP64.py:152: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/imalse/bindings/modulegen__gcc_LP64.py:166: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/imalse/bindings/modulegen__gcc_LP64.py:196: Warning: exception TypeLookupError(['uint8_t *'],) in wrapper public: retval? ???::PeekData (params?) const;
+  is_const=True)
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/imalse/bindings/modulegen__gcc_LP64.py:209: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/imalse/bindings/modulegen__gcc_LP64.py:264: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Read (params?);
+  [param('uint8_t *', 'buffer'), param('uint32_t', 'size')])
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/imalse/bindings/modulegen__gcc_LP64.py:308: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Write (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/imalse/bindings/modulegen__gcc_LP64.py:432: Warning: exception TypeLookupError(['ns3::AttributeConstructionList &'],) in wrapper protected: retval? ???::ConstructSelf (params?);
+  visibility='protected')
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/imalse/bindings/modulegen__gcc_LP64.py:482: Warning: exception TypeLookupError(['ns3::Callback< ns3::ObjectBase *, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::GetConstructor (params?) const;
+  is_const=True)
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/imalse/bindings/modulegen__gcc_LP64.py:640: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/imalse/bindings/modulegen__gcc_LP64.py:668: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/imalse/bindings/modulegen__gcc_LP64.py:709: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
