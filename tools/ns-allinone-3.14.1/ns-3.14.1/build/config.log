@@ -1,6 +1,6 @@
-# project ns (3.14.1) configured on Wed Apr 10 13:34:24 2013 by
+# project ns (3.14.1) configured on Fri Apr 12 17:17:18 2013 by
 # waf 1.6.11 (abi 98, python 20703f0 on linux2)
-# using waf configure --with-pybindgen ../pybindgen-0.15.0.809
+# using ./waf configure
 #
 ----------------------------------------
 Setting top to
@@ -10,18 +10,18 @@ Setting out to
 /home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/build
 ----------------------------------------
 Checking for 'gcc' (c compiler)
-find program=['gcc', 'cc'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', 'JAVA_HOME/bin'] var='CC' -> '/usr/bin/gcc'
-find program=['ar'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', 'JAVA_HOME/bin'] var='AR' -> '/usr/bin/ar'
+find program=['gcc', 'cc'] paths=['/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/build/src/emu', '/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/build/src/tap-bridge', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games'] var='CC' -> '/usr/bin/gcc'
+find program=['ar'] paths=['/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/build/src/emu', '/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/build/src/tap-bridge', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games'] var='AR' -> '/usr/bin/ar'
 /usr/bin/gcc
 ----------------------------------------
 Checking for 'g++' (c++ compiler)
-find program=['g++', 'c++'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', 'JAVA_HOME/bin'] var='CXX' -> '/usr/bin/g++'
+find program=['g++', 'c++'] paths=['/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/build/src/emu', '/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/build/src/tap-bridge', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games'] var='CXX' -> '/usr/bin/g++'
 (tool ar is already loaded, skipping)
 /usr/bin/g++
 ----------------------------------------
 Checking for program pkg-config
 /usr/bin/pkg-config
-find program=['pkg-config'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', 'JAVA_HOME/bin'] var='PKG_CONFIG' -> '/usr/bin/pkg-config'
+find program=['pkg-config'] paths=['/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/build/src/emu', '/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/build/src/tap-bridge', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games'] var='PKG_CONFIG' -> '/usr/bin/pkg-config'
 ---------------------------------------------------------
 Checking for compilation flag -Wl,--soname=foo... support
 ==>
@@ -39,7 +39,7 @@ ok
 ---------------------------------------------------------
 Checking for program python
 /usr/bin/python
-find program=['python'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', 'JAVA_HOME/bin'] var='PYTHON' -> '/usr/bin/python'
+find program=['python'] paths=['/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/build/src/emu', '/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/build/src/tap-bridge', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games'] var='PYTHON' -> '/usr/bin/python'
 ['/usr/bin/python', '-c', 'import sys\nfor x in sys.version_info: print(str(x))']
 out: 2
 7
@@ -94,7 +94,7 @@ yes
 -------------------------------------------------------------------------
 Checking for program python2.7-config,python-config-2.7,python2.7m-config
 /usr/bin/python2.7-config
-find program=['python2.7-config', 'python-config-2.7', 'python2.7m-config'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', 'JAVA_HOME/bin'] var='PYTHON_CONFIG' -> '/usr/bin/python2.7-config'
+find program=['python2.7-config', 'python-config-2.7', 'python2.7m-config'] paths=['/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/build/src/emu', '/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/build/src/tap-bridge', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games'] var='PYTHON_CONFIG' -> '/usr/bin/python2.7-config'
 ['/usr/bin/python2.7-config', '--includes']
 out: -I/usr/include/python2.7 -I/usr/include/python2.7
 
@@ -158,7 +158,7 @@ int main() { return 0; }
 ok
 -------------------------------------------------------------------------
 Checking for pybindgen location
-../pybindgen-0.15.0.809 (given)
+../pybindgen-0.15.0.809 (guessed)
 -------------------------------------------------------------------------
 Python module pybindgen
 ['/usr/bin/python', '-c', "\nimport pybindgen as current_module\nversion = getattr(current_module, '__version__', None)\nif version is not None:\n    print(str(version))\nelse:\n    print('unknown version')\n"]
@@ -214,7 +214,7 @@ from /home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/binding
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 39514704: cxx test.cc -> test.cc.1.o}
+	{task 37216528: cxx test.cc -> test.cc.1.o}
 ['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/dist-packages"', '-DHAVE_PYTHON_H=1', '../test.cc', '-c', '-o', 'test.cc.1.o']
 
 -------------------------------------------------------------------------
@@ -245,12 +245,19 @@ complete
 -------------------------------------------------------------------------
 Python module pygccxml
 ['/usr/bin/python', '-c', "\nimport pygccxml as current_module\nversion = getattr(current_module, '__version__', None)\nif version is not None:\n    print(str(version))\nelse:\n    print('unknown version')\n"]
-err: Traceback (most recent call last):
-  File "<string>", line 2, in <module>
-ImportError: No module named pygccxml
+out: 1.0.0
 
-not found
-from /home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/bindings/python: Could not find the python module 'pygccxml'
+1.0.0
+-------------------------------------------------------------------------
+Checking for pygccxml version
+1.0.0
+-------------------------------------------------------------------------
+Checking for program gccxml
+/usr/bin/gccxml
+find program=['gccxml'] paths=['/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/build/src/emu', '/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/build/src/tap-bridge', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games'] var='GCCXML' -> '/usr/bin/gccxml'
+-------------------------------------------------------------------------
+Checking for gccxml version
+0.9.0
 -------------------------------------------------------------------------
 Checking for click location
 not found
@@ -299,7 +306,7 @@ from /home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/cor
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 38647056: cxx test.cpp -> test.cpp.1.o}
+	{task 36844624: cxx test.cpp -> test.cpp.1.o}
 ['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 
 not found
@@ -382,7 +389,7 @@ from /home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/cor
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 38683792: cxx test.cpp -> test.cpp.1.o}
+	{task 36881360: cxx test.cpp -> test.cpp.1.o}
 ['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 
 not found
@@ -549,7 +556,7 @@ from /home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/cor
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 39514704: cxx test.cpp -> test.cpp.1.o}
+	{task 36788880: cxx test.cpp -> test.cpp.1.o}
 ['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 
 not found
@@ -653,7 +660,7 @@ from /home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/sta
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 38757072: cxxprogram test.cpp.1.o -> testprog}
+	{task 36944592: cxxprogram test.cpp.1.o -> testprog}
 ['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/build/.conf_check_39b3cecfac3989b2ed760243cef109e6/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-lsqlite3']
 
 not found
@@ -693,29 +700,23 @@ ok
 -------------------------------------------------------------------------
 Python module goocanvas
 ['/usr/bin/python', '-c', "\nimport goocanvas as current_module\nversion = getattr(current_module, '__version__', None)\nif version is not None:\n    print(str(version))\nelse:\n    print('unknown version')\n"]
-err: Traceback (most recent call last):
-  File "<string>", line 2, in <module>
-ImportError: No module named goocanvas
+out: 0.14.1
 
-not found
-from /home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/visualizer: Could not find the python module 'goocanvas'
+0.14.1
 -------------------------------------------------------------------------
 Python module pygraphviz
 ['/usr/bin/python', '-c', "\nimport pygraphviz as current_module\nversion = getattr(current_module, '__version__', None)\nif version is not None:\n    print(str(version))\nelse:\n    print('unknown version')\n"]
-err: Traceback (most recent call last):
-  File "<string>", line 2, in <module>
-ImportError: No module named pygraphviz
+out: 1.1
 
-not found
-from /home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/visualizer: Could not find the python module 'pygraphviz'
+1.1
 -------------------------------------------------------------------------
 Checking for program sudo
 /usr/bin/sudo
-find program=['sudo'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', 'JAVA_HOME/bin'] var='SUDO' -> '/usr/bin/sudo'
+find program=['sudo'] paths=['/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/build/src/emu', '/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/build/src/tap-bridge', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games'] var='SUDO' -> '/usr/bin/sudo'
 -------------------------------------------------------------------------
 Checking for program valgrind
 /usr/bin/valgrind
-find program=['valgrind'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', 'JAVA_HOME/bin'] var='VALGRIND' -> '/usr/bin/valgrind'
+find program=['valgrind'] paths=['/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/build/src/emu', '/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/build/src/tap-bridge', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games'] var='VALGRIND' -> '/usr/bin/valgrind'
 -------------------------------------------------------------------------
 Checking for pkg-config flags for GSL
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'gsl']: '' (exit code 1)
@@ -812,5 +813,5 @@ ok
 -------------------------------------------------------------------------
 Checking for program doxygen
 not found
-find program=['doxygen'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', 'JAVA_HOME/bin'] var='DOXYGEN' -> ''
+find program=['doxygen'] paths=['/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/build/src/emu', '/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/build/src/tap-bridge', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games'] var='DOXYGEN' -> ''
 from /home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1: Could not find the program doxygen

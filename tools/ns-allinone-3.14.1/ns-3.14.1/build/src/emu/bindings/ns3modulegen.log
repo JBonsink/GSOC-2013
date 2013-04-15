@@ -3,7 +3,7 @@
 ***** registering callback handler: 'ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::Address const &, ns3::NetDevice::PacketType, ns3::empty, ns3::empty, ns3::empty >'
 ***** registering callback handler: 'ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
 ***** registering callback handler: 'ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::Address const &, ns3::NetDevice::PacketType, ns3::empty, ns3::empty, ns3::empty >'
-/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:367: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x13d8610>
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:367: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x14ab7d0>
   cls.add_constructor([param('uint8_t', 'type'), param('uint8_t const *', 'buffer'), param('uint8_t', 'len')])
 /home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:378: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyAllFrom (params?);
   [param('uint8_t const *', 'buffer'), param('uint8_t', 'len')])
@@ -31,7 +31,7 @@
   [param('uint8_t *', 'buffer'), param('uint32_t', 'size')])
 /home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:778: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Write (params?);
   [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
-/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:999: Warning: exception TypeLookupError(['ns3::Ptr< ns3::EventImpl > &'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x16448d0>
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:999: Warning: exception TypeLookupError(['ns3::Ptr< ns3::EventImpl > &'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x1746ad0>
   cls.add_constructor([param('ns3::Ptr< ns3::EventImpl > const &', 'impl'), param('uint64_t', 'ts'), param('uint32_t', 'context'), param('uint32_t', 'uid')])
 /home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:1033: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::PeekEventImpl (params?) const;
   is_const=True)
@@ -43,7 +43,7 @@
   is_const=True)
 /home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:1200: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
   is_const=True)
-/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:1217: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x166cb90>
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:1217: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x176eb90>
   cls.add_constructor([param('uint8_t *', 'address')])
 /home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:1235: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
   is_static=True)
@@ -55,7 +55,7 @@
   is_const=True)
 /home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:1377: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Set (params?);
   [param('uint8_t *', 'address')])
-/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:1387: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x1759ed0>
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:1387: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x1864110>
   cls.add_constructor([param('uint8_t *', 'prefix')])
 /home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:1400: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::GetBytes (params?) const;
   is_const=True)
@@ -95,7 +95,7 @@ bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeConfigura
   is_static=True)
 /home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:2189: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
   is_pure_virtual=True, is_const=True, is_virtual=True)
-/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:2201: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x1aad390>
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:2201: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x1b98250>
   cls.add_constructor([param('uint8_t *', 'start'), param('uint8_t *', 'end')])
 /home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:2209: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Read (params?);
   [param('uint8_t *', 'buffer'), param('uint32_t', 'size')])
@@ -127,13 +127,13 @@ bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeLookupErr
   [param('ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >', 'listener')])
 /home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:3812: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::UnregisterDeviceAdditionListener (params?);
   [param('ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >', 'listener')])
-/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:3875: Warning: exception TypeLookupError(['std::ostream *'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x21ffc10>
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:3875: Warning: exception TypeLookupError(['std::ostream *'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x22f4d50>
   cls.add_constructor([param('std::ostream *', 'os')])
 /home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:3879: Warning: exception TypeLookupError(['std::ostream *'],) in wrapper public: retval? ???::GetStream (params?);
   [])
-/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:3891: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x2203a10>
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:3891: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x22f9b50>
   cls.add_constructor([param('uint8_t const *', 'buffer'), param('uint32_t', 'size'), param('bool', 'magic')])
-/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:3893: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x21ffd50>
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:3893: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x22f9b90>
   cls.add_constructor([param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
 /home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/emu/bindings/modulegen__gcc_LP64.py:3934: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyData (params?) const;
   is_const=True)

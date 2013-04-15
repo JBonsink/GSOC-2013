@@ -34,5 +34,6 @@ from ns.tools import *
 from ns.topology_read import *
 from ns.uan import *
 from ns.virtual_net_device import *
+from ns.visualizer import *
 from ns.wifi import *
 from ns.wimax import *

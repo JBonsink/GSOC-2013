@@ -7,7 +7,7 @@
   is_const=True)
 /home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/core/bindings/modulegen__gcc_LP64.py:490: Warning: exception TypeLookupError(['std::_List_const_iterator< ns3::AttributeConstructionList::Item >'],) in wrapper public: retval? ???::End (params?) const;
   is_const=True)
-/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/core/bindings/modulegen__gcc_LP64.py:557: Warning: exception TypeLookupError(['ns3::Ptr< ns3::EventImpl > &'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x2f4e7d0>
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/core/bindings/modulegen__gcc_LP64.py:557: Warning: exception TypeLookupError(['ns3::Ptr< ns3::EventImpl > &'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x150b950>
   cls.add_constructor([param('ns3::Ptr< ns3::EventImpl > const &', 'impl'), param('uint64_t', 'ts'), param('uint32_t', 'context'), param('uint32_t', 'uid')])
 /home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/core/bindings/modulegen__gcc_LP64.py:591: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::PeekEventImpl (params?) const;
   is_const=True)
@@ -21,9 +21,9 @@
   is_const=True)
 bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeLookupError(['short unsigned int'],) in wrapper None
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
-/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/core/bindings/modulegen__gcc_LP64.py:1884: Warning: exception TypeLookupError(['std::pair< double, double >'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x3466c50>
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/core/bindings/modulegen__gcc_LP64.py:1884: Warning: exception TypeLookupError(['std::pair< double, double >'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x1b0df50>
   cls.add_constructor([param('std::pair< double, double >', 'params')])
-/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/core/bindings/modulegen__gcc_LP64.py:1886: Warning: exception TypeLookupError(['std::pair< double, double >'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x3466c90>
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/core/bindings/modulegen__gcc_LP64.py:1886: Warning: exception TypeLookupError(['std::pair< double, double >'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x1b0df90>
   cls.add_constructor([param('std::pair< double, double >', 'params'), param('double', 'b')])
 bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper None
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
@@ -83,21 +83,21 @@ bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeConfigura
   is_const=True)
 /home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/core/bindings/modulegen__gcc_LP64.py:3845: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Ptr< ns3::Object > const, std::vector< ns3::Ptr< ns3::Object > > >'],) in wrapper public: retval? ???::End (params?) const;
   is_const=True)
-/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/core/bindings/modulegen__gcc_LP64.py:3935: Warning: exception TypeLookupError(['ns3::LogNodePrinter'],) in wrapper <pybindgen.function.Function object at 0x3d8fd10>
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/core/bindings/modulegen__gcc_LP64.py:3935: Warning: exception TypeLookupError(['ns3::LogNodePrinter'],) in wrapper <pybindgen.function.Function object at 0x2429550>
   [])
-/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/core/bindings/modulegen__gcc_LP64.py:3939: Warning: exception TypeLookupError(['ns3::LogTimePrinter'],) in wrapper <pybindgen.function.Function object at 0x3d8fdd0>
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/core/bindings/modulegen__gcc_LP64.py:3939: Warning: exception TypeLookupError(['ns3::LogTimePrinter'],) in wrapper <pybindgen.function.Function object at 0x2429610>
   [])
-/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/core/bindings/modulegen__gcc_LP64.py:3943: Warning: exception TypeLookupError(['ns3::LogNodePrinter'],) in wrapper <pybindgen.function.Function object at 0x3d8fe90>
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/core/bindings/modulegen__gcc_LP64.py:3943: Warning: exception TypeLookupError(['ns3::LogNodePrinter'],) in wrapper <pybindgen.function.Function object at 0x24296d0>
   [param('ns3::LogNodePrinter', 'arg0')])
-/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/core/bindings/modulegen__gcc_LP64.py:3947: Warning: exception TypeLookupError(['ns3::LogTimePrinter'],) in wrapper <pybindgen.function.Function object at 0x3d94050>
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/core/bindings/modulegen__gcc_LP64.py:3947: Warning: exception TypeLookupError(['ns3::LogTimePrinter'],) in wrapper <pybindgen.function.Function object at 0x2429850>
   [param('ns3::LogTimePrinter', 'arg0')])
-/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/core/bindings/modulegen__gcc_LP64.py:3963: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper <pybindgen.function.Function object at 0x3d9eb50>
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/core/bindings/modulegen__gcc_LP64.py:3963: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper <pybindgen.function.Function object at 0x2433f10>
   [param('void ( * ) (  ) *', 'f')])
-/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/core/bindings/modulegen__gcc_LP64.py:4191: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper <pybindgen.function.Function object at 0x3e9f190>
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/core/bindings/modulegen__gcc_LP64.py:4191: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper <pybindgen.function.Function object at 0x25496d0>
   [param('std::ostream *', 'stream')])
-/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/core/bindings/modulegen__gcc_LP64.py:4195: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper <pybindgen.function.Function object at 0x3e9f310>
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/core/bindings/modulegen__gcc_LP64.py:4195: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper <pybindgen.function.Function object at 0x2549850>
   [param('std::ostream *', 'stream')])
-/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/core/bindings/modulegen__gcc_LP64.py:4210: Warning: exception TypeLookupError(['std::_List_const_iterator< std::basic_string< char, std::char_traits< char >, std::allocator< char > > >'],) in wrapper <pybindgen.function.Function object at 0x3ea4150>
+/home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/ns-3.14.1/src/core/bindings/modulegen__gcc_LP64.py:4210: Warning: exception TypeLookupError(['std::_List_const_iterator< std::basic_string< char, std::char_traits< char >, std::allocator< char > > >'],) in wrapper <pybindgen.function.Function object at 0x254e690>
   [param('std::_List_const_iterator< std::basic_string< char, std::char_traits< char >, std::allocator< char > > >', 'begin'), param('std::_List_const_iterator< std::basic_string< char, std::char_traits< char >, std::allocator< char > > >', 'end')])
 /home/josh/Documents/GSOC/imalse/tools/ns-allinone-3.14.1/pybindgen-0.15.0.809/pybindgen/cppclass_typehandlers.py:1134: UserWarning: Returning shared pointers is dangerous!  The C++ API should be redesigned to avoid this situation.
   warnings.warn("Returning shared pointers is dangerous!"
