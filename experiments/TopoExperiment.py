@@ -34,7 +34,6 @@ class TopoExperiment(BaseClass):
     def node_num(self):
         return self.net.nodes.GetN()
 
-
     def setup(self):
         super(TopoExperiment, self).setup()
         self.net = TopologyNet(

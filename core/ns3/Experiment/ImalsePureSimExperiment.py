@@ -4,7 +4,7 @@ the real-time schedular.
 """
 import optparse
 from core.ns3.Node import ImalseNetnsSimNode
-import ns.core
+import ns.core #From tools/ns-allinone/ns/build/binding
 from Experiment import ImalseExperiment
 
 class ImalsePureSimExperiment(ImalseExperiment):

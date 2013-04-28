@@ -42,6 +42,7 @@ class CMD(object):
     def _trigger(self, event_name, *argv, **kwargv):
         """trigger an event, event hander is a class member function"""
         self.logger.debug('%s has been triggered'%(event_name))
+        print self, event_name
         getattr(self, event_name)(*argv, **kwargv)
 
     def dispatcher(self, sock, data):

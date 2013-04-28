@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """This file defines the behaviour of """
 import sys
-sys.path.append("..")
+sys.path.append("../..")
 from util import TO_CLS, abstract_method
 from random import randint
 from mod_util import RandDist
